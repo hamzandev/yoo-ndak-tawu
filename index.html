@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Banteng Puan ♉</title>
+</head>
+<body>
+  
+  <div class="card" style="width: 60vw; margin: 50px auto; padding: 8px 12px; box-shadow: 0 5px 15px lightgray; border-radius:8px; color: #3d3d3d">
+    <h3>Paint🎨 Background but it's Puan🗿</h3>
+    <p>Warna background elemen ini tergantung pada PDIP♉, Ehh,,, maksudnya tergantung pada warna apa yang ente input dibawah😀</p>
+  </div>
+  <div class="form" style="display: grid; width: 80vw; margin: 10px auto; gap: 10px;">
+    
+    <label for="warna">Ketik nama warna atau kode hexa</label>
+    <input type="text" name="warna" id="warna" style="padding: 12px 8px; border-radius: 8px; border: 1px solid #6a4848; font-size: 1.05rem;" placeholder="Kata ''banteng'' untuk warna merah" />
+    
+  
+    
+  </div>
+  
+  
+  
+  
+  
+  <script type="text/javascript" charset="utf-8">
+    
+    const card = document.querySelector('.card');
+    
+    const input = document.querySelector('#warna');
+    
+    input.addEventListener('input', (e) => {
+      if(e.target.value == 'banteng' || e.target.value == 'Banteng') card.style.backgroundColor = 'red';
+      
+      card.style.backgroundColor =  e.target.value;
+    })
+    
+    
+    
+    
+  </script>
+</body>
+</html>
